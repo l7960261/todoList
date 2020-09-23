@@ -1,6 +1,6 @@
 <template lang="pug">
   div#app
-    h1 Tasks
+    h1 Tasks 測試中
       span ({{notCompleted}})
     ul.tab
       li(@click="page='all'" :class="{'active':page=='all'}") ALL({{allTasks}})
